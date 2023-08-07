@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <script defer src="script/main.js"></script>
+    <div class="fullContainer">
+      <div class="container">
+        <div class="headerLogo">Rock Paper Scissor Game</div>
+        <div class="headerPlay">
+          <div class="logoPlay">
+            <i
+              class="fa-solid fa-person-half-dress fa-flip fa-2xl"
+              style="color: #000205"
+            ></i>
+          </div>
+          <div class="logoResult" id="resultPlay"></div>
+          <div class="logoComp">
+            <i
+              class="fa-solid fa-robot fa-bounce fa-2xl"
+              style="color: #00040a"
+            ></i>
+          </div>
+        </div>
+        <div class="fightPlay">
+          <div class="player">
+            <div class="gifPlayFull" id="gif-play"></div>
+            <div class="playChoice">
+              <div class="playPaper" id="play-paper">
+                <i class="fa-solid fa-hand fa-2xl" style="color: #000000"></i>
+              </div>
+              <div class="playRock" id="play-rock">
+                <i
+                  class="fa-solid fa-hand-fist fa-2xl"
+                  style="color: #0a0a0a"
+                ></i>
+              </div>
+              <div class="playScissor" id="play-scissor">
+                <i
+                  class="fa-solid fa-hand-peace fa-2xl"
+                  style="color: #000205"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="computerAi">
+            <div class="aiGifPlay" id="aiGif-play"></div>
+            <div class="aiStatement">Beat ME!!</div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="history">
+            <div class="Result History">Result History</div>
+            <ul id="resultList" class="OverAllResult"></ul>
+          </div>
+          <div class="realTime">
+            <div class="playerWin" id="playerWin">
+              <div class="playerLabel">Player</div>
+              <div class="playerWinList">
+                <ul id="winList"></ul>
+              </div>
+            </div>
+            <div class="aiWin">
+              <div class="computerlabel">Computer</div>
+              <ul id="compList"></ul>
+            </div>
+          </div>
+          <div class="playAgainBtn">
+            <div class="playBtn" onclick="window.location.reload()"></div>
+            <div class="playAgain">Play Again</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/3c4a05636b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

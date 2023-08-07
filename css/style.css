@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500&family=Pontano+Sans:wght@300;400&family=Poppins&family=Quicksand:wght@500&family=Righteous&family=Ubuntu&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.fullContainer{
+    background-color: rgb(187, 126, 187);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    height: 900px;
+    width: 1200px;
+    /* border: 3px solid green; */
+    margin: 0px auto;
+    background-color: rgb(203, 204, 204);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.headerLogo{
+    height: 100px;
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+ 
+}
+.headerPlay{
+    height: 100px;
+    width: 1194px;
+    /* border: 4px solid pink; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.logoPlay{
+    height: 100%;
+    width: 350px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+.logoResult{
+    height: 100%;
+    width: 350px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+   
+}
+.logoComp{
+    height: 100%;
+    width: 350px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.fightPlay{
+    display: flex;
+    justify-content: space-evenly;
+}
+.player{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid red; */
+}
+.computerAi{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid blue; */
+}
+.gifPlayFull{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid aqua; */
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.gifPlayZero{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid aqua; */
+    margin: 0 auto;
+    background-image: url(../Image/paper1.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gifPlay1{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid aqua; */
+    margin: 0 auto;
+    background-image: url(../Image/rock.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gifPlay2{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid aqua; */
+    margin: 0 auto;
+    background-image: url(../Image/scissor.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gifPlayOne{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid aqua; */
+    margin: 0 auto;
+    background-image: url(../Image/pleft.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gifPlayTwo{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid aqua; */
+    margin: 0 auto;
+    background-image: url(../Image/rockleft.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gifPlayThree{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid aqua; */
+    margin: 0 auto;
+    background-image: url(../Image/scileft.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.playChoice{
+    height: 96px;
+    width: 490px;
+    /* border: 4px solid black; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playPaper{
+    height: 89px;
+    width: 150px;
+    /* border: 3px solid rgb(238, 233, 229); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.playRock{
+    height: 89px;
+    width: 150px;
+    /* border: 3px solid rgb(238, 233, 229); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.playScissor{
+    height: 89px;
+    width: 150px;
+    /* border: 3px solid rgb(238, 233, 229); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.aiGifPlay{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid aqua; */
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.aiStatement{
+    height: 96px;
+    width: 490px;
+    /* border: 4px solid black; */
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer{
+    height: 290px;
+    width: 1190px;
+    /* border: 1px solid seagreen; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.history{
+    height: 280px;
+    width: 350px;
+    /* border: 2px solid skyblue; */
+}
+.realTime{
+    height: 280px;
+    width: 330px;
+    /* border: 2px solid skyblue; */
+    display: flex;
+    justify-content: center;
+}
+.playAgainBtn{
+    height: 280px;
+    width: 350px;
+    /* border: 2px solid skyblue; */
+}
+.playerWin{
+    height: 275px;
+    width: 160px;
+    /* border: 3px solid wheat; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
+}
+.aiWin{
+    height: 275px;
+    width: 160px;
+    /* border: 3px solid rgb(255, 166, 0); */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
+}
+
+.overAllResult ul{
+    list-style-type: none;
+}
+
+.playBtn{
+    height: 200px;
+    width: 330px;
+    background-image: url(../Image/play1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.PlayAgainBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.playAgain{
+    text-align: center;
+    font-size: 30px;
+}
+.playerLabel{
+    /* padding-left: 10px; */
+    font-size: 18px;
+    font-weight: 500;
+}
+.computerlabel{
+    /* padding-left: 10px; */
+    font-size: 18px;
+    font-weight: 500;
+}
