@@ -76,6 +76,7 @@
 .fightPlay{
     display: flex;
     justify-content: space-evenly;
+    
 }
 .player{
     height: 400px;
@@ -288,4 +289,109 @@
 .Result-History{
     font-size: 18px;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 900px){
+    .fightPlay{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fullContainer{
+        height: auto;
+    }
+
+    .container{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .headerLogo{
+        /* width: 80%; */
+        font-size: 20px;
+    }
+    .headerPlay{
+        width: 80%;
+    }
+    .footer{
+        width: 80%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .player{
+        /* margin: 0px auto; */
+        width: 280px;
+        height: auto;
+    }
+    .aiGifPlay{
+        height: 200px;
+        width: 280px;
+        /* margin: 0px; */
+        margin-left: -40px
+
+
+        
+    }
+    .computerAi{
+        width: 200px;
+        height: auto;
+    }
+
+    .gifPlayFull{
+        height: 200px;
+        width: 280px;
+        /* margin-left: 20px; */
+    }
+    .playPaper{
+        height: 45px;
+        width: 45px;
+    }
+    .playRock{
+        height: 45px;
+        width: 45px;
+    }
+    .playScissor{
+        height: 45px;
+        width: 45px;
+    }
+    .playChoice{
+        width: 280px;
+        justify-content: space-evenly;
+    }
+    .aiStatement{
+        font-size: 20px;
+        width: 280px;
+        margin-left: -40px
+    }
+.logoResult{
+    font-size: 20px;
+}
+.logoComp{
+    font-size: 20px;
+}
+.logoPlay{
+    font-size: 20px;
+}
+
+.playPaper{
+    font-size: 30px;
+}
+.playRock{
+    font-size: 30px;
+}
+.playScissor{
+    font-size: 30px;
+}
+
+
 }
